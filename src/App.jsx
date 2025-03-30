@@ -33,7 +33,6 @@ export default function App() {
             <li>Italien : Trilingue</li>
             <li>Arabe : Trilingue</li>
             <li>Anglais : B2</li>
-            <li>Permis B</li>
           </ul>
         </section>
 
@@ -67,12 +66,12 @@ export default function App() {
           <h2 className="text-3xl font-bold mb-4 text-orange-400">Projets Scolaires</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-zinc-800 p-4 rounded-xl shadow hover:shadow-lg transition">
-              <img src="/projet1.png" alt="Power BI" className="w-full h-40 object-cover rounded mb-3" />
+              <img src="/powBI.png" alt="Power BI" className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-xl font-semibold mb-1">Visualisation Power BI</h3>
               <p className="text-sm text-zinc-300">Aide à la décision via SQL + Power BI (commandes, ventes, clients, profits...)</p>
             </div>
             <div className="bg-zinc-800 p-4 rounded-xl shadow hover:shadow-lg transition">
-              <img src="/projet2.png" alt="BD Oracle" className="w-full h-40 object-cover rounded mb-3" />
+              <img src="/thera.png" alt="BD Oracle" className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-xl font-semibold mb-1">Base de données Thérapeutes</h3>
               <p className="text-sm text-zinc-300">MCD, MPD, SQLDeveloper, données et requêtes sous Oracle</p>
             </div>

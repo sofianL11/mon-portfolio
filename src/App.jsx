@@ -103,7 +103,8 @@ export default function App() {
           <div className="text-sm text-zinc-300 space-y-2">
             <p><strong>Adresse e-mail :</strong> sofianlyadi@mail.com</p>
             <p><strong>Téléphone :</strong> 06 00 00 00 00</p>
-            <p><strong>LinkedIn :</strong> <a href="www.linkedin.com/in/sofian-lyadi-925045297" className="text-teal-400 hover:underline" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sofian-lyadi-925045297</a></p>
+            <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/sofian-lyadi-925045297" className="text-teal-400 hover:underline" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sofian-lyadi-925045297</a>
+
           </div>
         </section>
       </main>

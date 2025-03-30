@@ -11,7 +11,7 @@ export default function App() {
       </nav>
 
       <header id="about" className="relative h-screen flex items-center justify-center text-center overflow-hidden">
-        <img src="/flare-bg.jpg" alt="flare bg" className="absolute w-full h-full object-cover opacity-30" />
+        <img src="/mon-portfolio/flare-bg.jpg" alt="flare bg" className="absolute w-full h-full object-cover opacity-30" />
         <div className="relative z-10 max-w-3xl px-4">
           <motion.p className="text-xs tracking-widest mb-4 text-orange-500" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>BOLD, CREATIVE, & UNFORGETTABLE</motion.p>
           <motion.h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>Unleashing <span className="italic text-orange-500">Digital Beasts</span><br />in Creative Chaos</motion.h1>
@@ -20,7 +20,7 @@ export default function App() {
           </motion.p>
           <div className="mt-8 flex justify-center gap-4">
             <a href="#projects" className="px-6 py-2 bg-white text-black rounded-full font-semibold text-sm hover:bg-zinc-200 transition">View Portfolio</a>
-            <a href="/CV.pdf" className="px-6 py-2 border border-white rounded-full text-sm hover:bg-white hover:text-black transition">Download CV</a>
+            <a href="/mon-portfolio/CV.pdf" className="px-6 py-2 border border-white rounded-full text-sm hover:bg-white hover:text-black transition">Download CV</a>
           </div>
         </div>
       </header>
@@ -66,12 +66,12 @@ export default function App() {
           <h2 className="text-3xl font-bold mb-4 text-orange-400">Projets Scolaires</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-zinc-800 p-4 rounded-xl shadow hover:shadow-lg transition">
-              <img src="/powBI.png" alt="Power BI" className="w-full h-40 object-cover rounded mb-3" />
+              <img src="/mon-portfolio/powBI.png" alt="Power BI" className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-xl font-semibold mb-1">Visualisation Power BI</h3>
               <p className="text-sm text-zinc-300">Aide à la décision via SQL + Power BI (commandes, ventes, clients, profits...)</p>
             </div>
             <div className="bg-zinc-800 p-4 rounded-xl shadow hover:shadow-lg transition">
-              <img src="/thera.png" alt="BD Oracle" className="w-full h-40 object-cover rounded mb-3" />
+              <img src="/mon-portfolio/thera.png" alt="BD Oracle" className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-xl font-semibold mb-1">Base de données Thérapeutes</h3>
               <p className="text-sm text-zinc-300">MCD, MPD, SQLDeveloper, données et requêtes sous Oracle</p>
             </div>

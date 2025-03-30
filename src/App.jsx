@@ -7,7 +7,7 @@ export default function App() {
         <a href="#about" className="hover:text-orange-500 transition text-sm font-medium">About</a>
         <a href="#projects" className="hover:text-orange-500 transition text-sm font-medium">Portfolio</a>
         <a href="#contact" className="hover:text-orange-500 transition text-sm font-medium">Contact</a>
-        <a href="mailto:tonadresse@mail.com" className="ml-2 px-4 py-1 bg-orange-500 text-black rounded-full text-xs font-semibold">Get in touch</a>
+        <a href="mailto:sofianlyadi@mail.com" className="ml-2 px-4 py-1 bg-orange-500 text-black rounded-full text-xs font-semibold">Me contacter</a>
       </nav>
 
       <header id="about" className="relative h-screen flex items-center justify-center text-center overflow-hidden">

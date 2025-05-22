@@ -30,7 +30,7 @@ export default function App() {
           </motion.p>
           <div className="mt-8 flex justify-center gap-4">
             <a href="#projects" className="px-6 py-2 bg-white text-black rounded-full font-semibold text-sm hover:bg-zinc-200 transition">Voir mes projets</a>
-            <a href="/mon-portfolio/CV.pdf" className="px-6 py-2 border border-white rounded-full text-sm hover:bg-white hover:text-black transition">Télécharger mon CV</a>
+            <a href="/mon-portfolio/CV_alternance_Lyadi_2025.pdf" className="px-6 py-2 border border-white rounded-full text-sm hover:bg-white hover:text-black transition">Télécharger mon CV</a>
           </div>
         </div>
       </header>
